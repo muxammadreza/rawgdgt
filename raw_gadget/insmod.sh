@@ -3,5 +3,5 @@
 
 set -eux
 
-sudo modprobe udc_core
-sudo insmod ./raw_gadget.ko
+modprobe udc_core
+insmod ./raw_gadget.ko
